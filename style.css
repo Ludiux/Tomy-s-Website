@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     font-style: normal;
@@ -356,4 +357,364 @@ header h1 a {
         left: 5px;
         font-size: 35px;
     }
+=======
+*{
+    box-sizing: border-box;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+@font-face {
+    font-family: death_mohawk;
+    src: url(assets/fonts/DeathMohawk_PERSONAL_USE_ONLY.woff2) format(woff2),
+         url(assets/fonts/DeathMohawk_PERSONAL_USE_ONLY.woff) format(woff);
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Alice;
+    src: url(assets/fonts/alice_in_wonderland_3-webfont.woff2) format(woff2),
+         url(assets/fonts/alice_in_wonderland_3-webfont.woff) format(woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cardinal;
+    src: url(assets/fonts/cardinal-webfont.woff2) format(woff2),
+         url(assets/fonts/cardinal-webfont.woff) format(woff);
+    font-weight: normal;
+}
+
+body{
+    background-color: #9111bbd0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 3px solid #B700F3;
+
+}
+header img{
+    display: none;
+}
+header input{
+    display: none;
+}
+header label{
+    display: none;
+}
+label input{
+    appearance: none;
+}
+h1{
+    margin: 0;
+}
+nav {
+    margin-left: auto;
+}
+.navbar {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left: auto;
+}
+.navbar li img{
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    width: 70px;
+    height: auto;
+    opacity: 100%;
+    display: block;
+}
+.navbar li a{
+    font-family: Alice;
+    font-size: 26px;
+    font-weight: bold;
+    color: #18F301;
+}
+.navbar li a:hover{
+    color: #B700F3;
+}
+h1 a{
+
+    font-family: death_mohawk;
+    font-size: 70px;
+    font-weight: lighter;
+    color: #18F301;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin: 0!important;
+}
+.Tomi{
+    position: absolute;
+    right: 100px;
+    top: 140px;
+    width: 350px;
+    height: auto;
+    border-radius: 400px;
+    transition: width 1s;
+}
+.Tomi:hover{
+    width: 400px;
+}
+.BodyBox {
+    width: 900px;
+    height: 200px;
+}
+div.SiteTitles{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+div h2{
+    position: absolute;
+    top: 185px;
+    left: 70px;
+    text-decoration: none;
+    font-size: 150px;
+    font-family: death_mohawk;
+    font-weight: normal;
+    
+}
+div h3{
+    font-family: Alice;
+    font-size: 30px;
+}
+div .arquitecto{
+    position: absolute;
+    top: 198px;
+    left: 232px;
+}
+div .gay{
+    position: absolute;
+    top: 315px;
+    left: 313px;
+
+}
+div h4{
+    font-family: cardinal;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: 181px;
+    left: 244px;
+}
+header h1 a {
+    font-family: death_mohawk !important;
+    font-size: 70px;
+    font-weight: lighter !important;
+    color: #18F301 !important;
+    padding: 0 !important;
+    margin: 0px !important;
+    
+    line-height: 1; /* Add this to prevent line-height issues */
+}
+
+.fa-instagram{
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    font-size: 35px;
+    color: #18F301;
+    transition: color 0.2s;
+}
+.fa-x-twitter{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    font-size: 35px;
+    color: #18F301;
+    transition: color 0.2s;
+}
+.fa-envelope{
+    position: absolute;
+    top: 300px;
+    left: 18px;
+    font-size: 30px;
+    color: #18F301;
+    transition: color 0.2s;
+}
+
+.fa-instagram:hover{
+    color: #19f301a1;
+}
+.fa-x-twitter:hover{
+    color: #19f301a1;
+}
+.fa-envelope:hover{
+    color: #19f301a1;
+}
+
+@media (max-width:500px) {
+    .BodyBox {
+        width: 300px;
+    }
+    .Tomi{
+        width: 300px;
+        position: absolute;
+        left: auto;
+        right: 15%;
+        z-index: -1;
+    }
+    .Tomi:hover{
+    width: 320px;
+    }
+    div.SiteTitles{
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0;
+        
+    }
+    div h2{
+        position: absolute;
+        text-decoration: none;
+        font-size: 100px;
+        font-family: death_mohawk;
+        font-weight: normal;
+        top: 100px;
+        left: auto;
+    
+    }
+    div h3{
+        font-family: Alice;
+        font-size: 25px;
+    }
+    div .arquitecto{
+        position: absolute;
+        top: 100px;
+        left: auto;
+    }
+    div .gay{
+        position: absolute;
+        top: 190px;
+        left:auto;
+
+    }
+    div h4{
+        font-family: cardinal;
+        font-size: 15px;
+        font-weight: lighter;
+        position: absolute;
+        top: 90px;
+        left: auto;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 135px;
+        right: 3px;
+        width: fit-content;
+        padding: px;
+        opacity: 0%;
+        transition: opacity 0.5s;
+        z-index: -1;
+        
+    }
+    .navbar li{
+        text-align: center;
+        width: 100px;
+        background-color: black;
+        opacity: 90%;
+        transition: opacity 0.2s;
+
+    }
+    .navbar li:hover{
+        opacity: 100%;
+    }
+    .navbar li img{
+        position: fixed;
+        top: auto;
+        left: auto;
+        bottom: 0;
+        right: 0;
+        opacity: 0%;
+    }
+    header img{
+        display: block;
+        position: fixed;
+        top: auto;
+        left: auto;
+        bottom: 0;
+        right: 0;
+        opacity: 100%;
+        width: 70px;
+        height: auto;
+        z-index: 2;
+    }
+    header{
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;
+    }
+    h1 a{
+        font-size: 100px!important;
+        margin: 0!important;
+    }
+    h1{
+        margin: 0;
+        margin-left: auto;
+    }
+    header label{
+        display: initial;
+        position: absolute;
+        top: 103px;
+        right: 3px;
+        opacity: 70%;
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+        transition: opacity 0.5s;
+    }
+    .fa-bars{
+        font-size: 30px;
+        color: #18F301;
+    }
+    header label:hover{
+        opacity: 100%;
+    }
+
+    #menu-toggle:checked ~ nav .navbar {
+        right: 3px;
+        opacity: 100%;
+        z-index: 0;
+    }
+    .fa-instagram{
+        top: 480px;
+        left: 5px;
+        font-size: 35px;
+    }
+  .fa-x-twitter{
+        top: 535px;
+        left: 5px;
+        font-size: 35px;
+    }
+   .fa-envelope{
+        top: 590px;
+        left: 5px;
+        font-size: 35px;
+    }
+>>>>>>> origin/main
 }
