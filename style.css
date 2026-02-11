@@ -162,8 +162,6 @@ header h1 a {
     color: #18F301 !important;
     padding: 0 !important;
     margin: 0px !important;
-    
-    line-height: 1; /* Add this to prevent line-height issues */
 }
 
 .fa-instagram{

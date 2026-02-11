@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .exitButton{
     margin: 5px;
     border-radius: 0;
@@ -19,26 +18,4 @@
 }
 .exitButton:hover {
     opacity: 100%;
-=======
-.exitButton{
-    margin: 5px;
-    border-radius: 0;
-    border: 3px solid gray;
-    padding: 4px;
-    text-align: center;
-
-    background-color: lightgray;
-    opacity: 70%;
-    transition: opacity 0.2s;
-}
-.exitButton a{
-    color: gray;
-    font-style: none;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: tomorrow;
-}
-.exitButton:hover {
-    opacity: 100%;
->>>>>>> origin/main
 }
