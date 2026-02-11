@@ -55,6 +55,7 @@ label input{
 }
 h1{
     margin: 0;
+    user-select: none;
 }
 nav {
     margin-left: auto;
@@ -99,14 +100,14 @@ h1{
 .Tomi{
     position: absolute;
     right: 100px;
-    top: 140px;
-    width: 350px;
+    top: 120px;
+    width: 400px;
     height: auto;
     border-radius: 400px;
     transition: width 1s;
 }
 .Tomi:hover{
-    width: 400px;
+    width: 420px;
 }
 .BodyBox {
     width: 900px;
@@ -121,6 +122,7 @@ div.SiteTitles{
     align-items: center;
     padding: 10px;
     margin-left: 50px;
+    user-select: none;
 }
 div h2{
     position: absolute;
@@ -130,21 +132,25 @@ div h2{
     font-size: 150px;
     font-family: death_mohawk;
     font-weight: normal;
+    user-select: none;
     
 }
 div h3{
     font-family: Alice;
     font-size: 30px;
+    user-select: none;
 }
 div .arquitecto{
     position: absolute;
     top: 198px;
     left: 232px;
+    user-select: none;
 }
 div .gay{
     position: absolute;
     top: 315px;
     left: 313px;
+    user-select: none;
 
 }
 div h4{
@@ -154,6 +160,7 @@ div h4{
     position: absolute;
     top: 181px;
     left: 244px;
+    user-select: none;
 }
 header h1 a {
     font-family: death_mohawk !important;
@@ -162,6 +169,7 @@ header h1 a {
     color: #18F301 !important;
     padding: 0 !important;
     margin: 0px !important;
+    user-select: none;
 }
 
 .fa-instagram{
